@@ -166,7 +166,7 @@ extension EmbyClient {
                     completion(.failure(error))
                 } else {
                     if let text = result.text, !text.isEmpty {
-                        completion(.failure(NSError(domain: "filebox", code: -1, userInfo: [
+                        completion(.failure(NSError(domain: "Banana", code: -1, userInfo: [
                             NSLocalizedFailureReasonErrorKey: text,
                             NSLocalizedFailureErrorKey: ""
                         ])))
@@ -210,7 +210,7 @@ extension EmbyClient {
                     completion(.failure(error))
                 } else {
                     if let text = result.text, !text.isEmpty {
-                        completion(.failure(NSError(domain: "filebox", code: -1, userInfo: [
+                        completion(.failure(NSError(domain: "Banana", code: -1, userInfo: [
                             NSLocalizedFailureReasonErrorKey: text,
                             NSLocalizedFailureErrorKey: ""
                         ])))
